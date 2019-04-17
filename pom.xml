@@ -3,11 +3,9 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.dfs.datahub</groupId>
-  <artifactId>datahub-lib</artifactId>
   <version>1.0</version>
   <packaging>jar</packaging>
 
-  <name>datahub-lib</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -43,13 +41,16 @@
     <artifactId>jdk.tools</artifactId>
     <version>jdk1.8.0_144</version>
     <scope>system</scope>
-    <systemPath>${JAVA_HOME}/lib/tools.jar</systemPath>
+    <systemPath>C:/Program Files/Java/jdk1.8.0_144/lib/tools.jar</systemPath>
+    <!-- <systemPath>${JAVA_HOME}/lib/tools.jar</systemPath> -->
    </dependency>
 
   </dependencies>
   
    <build>
-   <finalName>datahub-lib</finalName>
+   <finalName>udf</finalName>
  </build>
  
+   <artifactId>udf</artifactId>
+   <name>udf</name>
 </project>
